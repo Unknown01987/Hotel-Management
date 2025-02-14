@@ -1,9 +1,10 @@
 {
-  "scripts": {
-    "start": "node server",
-    "server": "nodemon server",
-    "client": "npm run starnpm run start --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"cd ../frontend && npm start\""
+ "scripts": {
+    "install-server": "cd backend && npm install",
+    "start-server": "cd backend && node app.js",
+    "install-client": "cd client && npm install",
+    "build-client": "cd client && npm run build",
+    "start-client": "cd client && npm run start"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
