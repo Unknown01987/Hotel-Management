@@ -44,7 +44,7 @@ export default function AddEmployee() {
                     empid, firstname, lastname, emptype, nic, mobile, bank, branch
                 }
                 
-                const data =  (await axios.post("http://localhost:5000/employees//", newDetails)).status
+                const data =  (await axios.post("https://hotel-management-3-t5ay.onrender.com/employees/", newDetails)).status
                 if (data === 200) {
                     SoloAlert.alert({
                         title: "Welcome!",

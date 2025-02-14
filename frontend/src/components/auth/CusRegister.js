@@ -41,7 +41,7 @@ export default function CusReg() {
             } else {
                 const newDetails = { cusname, cusemail, phoneno, password };
 
-                const data = (await axios.post('http://localhost:5000/customer/', newDetails)).status;
+                const data = (await axios.post('https://hotel-management-3-t5ay.onrender.com/customer/', newDetails)).status;
                 if (data === 200) {
                     SoloAlert.alert({
                         title: 'Welcome!',

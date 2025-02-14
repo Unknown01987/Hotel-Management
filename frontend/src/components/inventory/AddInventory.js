@@ -40,7 +40,7 @@ export default function AddInventory() {
                     itemid, itemname, itemmodel, itemcategory, restocklevel, supplier, quantity, unitprice, itemdate
                 }
 
-                const data = (await axios.post("http://localhost:5000/inventory/", newDetails)).status
+                const data = (await axios.post("https://hotel-management-3-t5ay.onrender.com/inventory/", newDetails)).status
                 if (data === 200) {
                     SoloAlert.alert({
                         title: "Welcome!",

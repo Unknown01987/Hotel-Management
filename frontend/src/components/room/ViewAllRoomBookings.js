@@ -25,7 +25,7 @@ export default function ViewAllRoomBookings() {
     useEffect(() => {
         async function getDetails() {
             try {
-                const result = await (await axios.get("http://localhost:5000/booking/")).data.data
+                const result = await (await axios.get("https://hotel-management-3-t5ay.onrender.com/booking/")).data.data
                 setAllBookings(result);
                 setLoaderStatus(true)
                 setTableStatus(false)

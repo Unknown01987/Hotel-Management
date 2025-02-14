@@ -46,7 +46,7 @@ export default function AddReg() {
                 const newDetails = { cusname, cusemail, phoneno, password, role };
 
                 // Send data to the backend
-                const response = await axios.post('http://localhost:5000/customer/', newDetails);
+                const response = await axios.post('https://hotel-management-3-t5ay.onrender.com/customer/', newDetails);
                 if (response.status === 200) {
                     SoloAlert.alert({
                         title: 'Welcome!',

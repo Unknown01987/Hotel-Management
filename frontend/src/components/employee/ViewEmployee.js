@@ -29,7 +29,7 @@ export default function ViewAllEmp() {
     useEffect(() => {
         async function getDetails() {
             try {
-                const result = await (await axios.get("http://localhost:5000/employees//")).data.data
+                const result = await (await axios.get("https://hotel-management-3-t5ay.onrender.com/employees/")).data.data
                 setAllEmp(result);
                 setLoaderStatus(true)
                 setTableStatus(false)

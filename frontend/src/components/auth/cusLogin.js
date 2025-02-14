@@ -12,7 +12,7 @@ export default function CusLogin() {
         setLoading(true);
         try {
             const loginDetails = { cusemail, password };
-            const data = (await axios.post('http://localhost:5000/customer/login', loginDetails)).data;
+            const data = (await axios.post('https://hotel-management-3-t5ay.onrender.com/customer/login', loginDetails)).data;
             console.log(data);
 
             // Check if login is successful and role is 'customer'
