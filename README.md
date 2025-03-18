@@ -1,12 +1,45 @@
-# Hotel Management System for Hotel Elite
+# 🏨 Hotel Management System – Hotel Elite  
 
-Technologies used: React Js, Node Js, MongoDB, Express
+## 🚀 Technologies Used  
+- 🖥 **Frontend:** React.js  
+- ⚙ **Backend:** Node.js, Express.js  
+- 🗄 **Database:** MongoDB  
+- 🌐 **API:** RESTful API  
 
-We have created a fully integrated system for Hotel Elite for ITPM module. Implemented using MERN stack with REST API and several dependencies. Our main goal of this project was to replace all manual management with a fully automated online management system. Main functions of the system are customer reservation, Employee management, Room management, Supplier management and Inventory management.
+## 📌 Project Overview  
+The **Hotel Management System** for **Hotel Elite** is a fully integrated solution developed for the **ITPM module**. It is built using the **MERN stack** with a **REST API** and several dependencies.  
 
-Steps to run the project
-1.Clone the  project
-2.Go to backend folder and install npm dependencies using "npm i" command
-3.Run backend(server) using "npm run server" command
-4.Go to frontend folder and install npm dependencies using "npm i" command
-5.Run frontend using "npm start" command
+The primary goal of this project is to replace manual hotel management with a **fully automated online system**. The system includes the following core functionalities:  
+- 🏠 **Customer Reservation Management**  
+- 👨‍💼 **Employee Management**  
+- 🏨 **Room Management**  
+- 🚚 **Supplier Management**  
+- 📦 **Inventory Management**  
+
+## 🛠 Steps to Run the Project  :-
+
+### 1️⃣ Clone the Project  
+```sh
+git clone https://github.com/your-username/your-repository.git
+```
+### 2️⃣ Backend Setup  
+Navigate to the backend folder and install dependencies:  
+```sh
+cd backend
+npm install
+```
+#### ✅ Run the backend server:
+```sh
+npm run server
+```
+### 3️⃣ Frontend Setup
+Navigate to the frontend folder and install dependencies:
+```sh
+cd ../frontend
+npm install
+```
+#### ✅ Run the frontend application:
+```sh
+npm start
+```
+## 📢 For any issues or contributions, feel free to submit a pull request or open an issue. Happy coding! 🚀
