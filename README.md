@@ -35,11 +35,46 @@ This project was an exciting opportunity to leverage modern web technologies and
 
 ---
 
-## Installation
+## Installation & Running the Application
 
-Follow these steps to set up and run the project locally:
+### Prerequisites
 
-1. **Clone the Repository**
+- [Node.js](https://nodejs.org/en/) installed on your machine.
+- [MongoDB](https://www.mongodb.com/) instance running locally or on a remote server.
+
+### Clone the Repository
+
+```bash
+git clone <repository-url>
+cd <repository-folder>
+````
+## Backend Setup : - 
+
+1. **Navigate to the backend folder :**
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   cd backend
+
+2. **Install backend dependencies :**
+   ```bash
+   npm install
+
+3. **Start the backend server :**
+   ```bash
+   npm run server
+
+## Frontend Setup : -
+
+1. **Navigate to the frontend folder :**
+   ```bash
+   cd frontend
+   
+2. **Install frontend dependencies :**
+   ```bash
+   npm install
+
+3. **Start the frontend application :**
+   ```bash
+   npm start
+
+I welcome any constructive feedback! 💬💬💬
+Opportunities for further professional collaboration! 🚀
