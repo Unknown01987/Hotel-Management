@@ -76,5 +76,16 @@ cd <repository-folder>
    ```bash
    npm start
 
-I welcome any constructive feedback! 💬💬💬
-Opportunities for further professional collaboration! 🚀
+### Running Both Servers Concurrently
+
+From the root directory, run the following command to start both the backend and frontend servers simultaneously:
+
+```bash
+npm run dev
+```
+
+# 🤝 **Let's Collaborate!** 🤝
+
+## I welcome any constructive feedback! 💬💬💬  
+## Feel free to share your ideas, suggestions, and insights! 📝✨  
+## Opportunities for further professional collaboration are always welcome! 🚀🌟
