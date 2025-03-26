@@ -86,6 +86,6 @@ npm run dev
 
 # 🤝 **Let's Collaborate!** 🤝
 
-## I welcome any constructive feedback! 💬💬💬  
-## Feel free to share your ideas, suggestions, and insights! 📝✨  
-## Opportunities for further professional collaboration are always welcome! 🚀🌟
+### I welcome any constructive feedback! 💬💬💬  
+### Feel free to share your ideas, suggestions, and insights! 📝✨  
+### Opportunities for further professional collaboration are always welcome! 🚀🌟
